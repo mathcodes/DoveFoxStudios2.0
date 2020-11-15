@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "title": "Recording, Mixing, Mastering",
+      "description": "Newly built with high-end studio equipment and a vocal booth to get your demo done. Click for more!",
+      "image": "https://static.bhphotovideo.com/explora/sites/default/files/illustration.jpg",
+      "slug": "Studio"
+    },
+    {
+      "title": "Music Lessons",
+      "description": "This is a photo of a cat",
+      "image": "http://placekitten.com/200/210",
+      "slug": "Lessons"
+    },
+    {
+      "title": "Academic Tutors",
+      "description": "This is a mirage of a cat",
+      "image": "http://placekitten.com/200/220",
+      "slug": "Tutors"
+    },
+    {
+      "title": "Join Us",
+      "description": "Use the contact form with a message explaining your skillset and we will contact you with an application to fill out.",
+      "image": "https://diversity.ncsu.edu/wp-content/uploads/2019/12/group-of-employees.jpg",
+      "slug": "Join"
+    }
+  ]
+}
