@@ -6,16 +6,14 @@ import ContactForm from '@components/ContactForm'
 
 export default function Contact() {
   return (
-    <div className="container">
-      <Head>
-        <title>My Portfolio | Contact</title>
-        <link rel="icon" href="/favicon.ico" />
+    <div>
+      <Head>        
+        <title>DoveFox Studios</title>
+        <link rel="icon" href="https://www.jonchristie.net/favicon.png" />
       </Head>
       <Nav />
-      <main>
-        <Header text="Contact me" />
-        <ContactForm />
-      </main>
+         <ContactForm />
+  
 
       <Footer />
 

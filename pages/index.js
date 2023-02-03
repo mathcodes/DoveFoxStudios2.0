@@ -3,18 +3,20 @@ import Nav from '@components/Nav'
 import Header from '@components/Header'
 import Card from '@components/Card'
 import Footer from '@components/Footer'
+import data from '../portfolio.json'
 
 export default function Home({ items }) {
+  const titleString = "Welcome to " + data.title
   return (
-    <div className="container">
+    <div >
       <Head>
-        <title>My Portfolio Example</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>DoveFox Studios</title>
+        <link rel="icon" href="https://www.jonchristie.net/favicon.png" />
       </Head>
       <Nav />
 
       <main>
-        <Header text="Welcome to DoveFox Studios!" />
+        <Header text={titleString} />
 
         <div className="cards"> 
           {items?.length &&

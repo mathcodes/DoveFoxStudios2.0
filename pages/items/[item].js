@@ -5,10 +5,10 @@ import Footer from '@components/Footer'
 
 export default function Item({ title, description, image }) {
   return (
-    <div className="container">
+    <div>
       <Head>
-        <title>My Portfolio | {title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>DoveFox Studios</title>
+        <link rel="icon" href="https://www.jonchristie.net/favicon.png" />
       </Head>
 
       <Nav />
