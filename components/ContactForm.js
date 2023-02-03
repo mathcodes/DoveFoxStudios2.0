@@ -4,13 +4,13 @@ export default function ContactForm() {
       <div className="lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
-            className="w-full object-scale-down lg:absolute lg:h-full"
+            className="w-full hidden lg:inline object-scale-down lg:absolute lg:h-full"
             src="https://raw.githubusercontent.com/mathcodes/DoveFoxStudios2.0/main/assets/images/dfsImage0.jpg"
             alt=""
           />
         </div>
       </div>
-      <div className="relative py-16 px-6 sm:py-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-32">
+      <div className="relative px-6 sm:py-2 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-2">
         <div className="lg:pr-8">
           <div className="mx-auto max-w-md sm:max-w-lg lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Let's work together</h2>
@@ -18,7 +18,7 @@ export default function ContactForm() {
               We’d love to hear from you! Send us a message using the form opposite, or email us. We’d love to hear from
               you! Send us a message using the form opposite, or email us.
             </p>
-            <form action="#" method="POST" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <form action="#" method="POST" className="mt-0 mb-12 grid grid-cols-1 gap-y-0 sm:grid-cols-2 sm:gap-x-8">
               <div>
                 <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
                   First name
@@ -181,7 +181,7 @@ export default function ContactForm() {
                   />
                 </div>
               </div>
-              <div className="text-right sm:col-span-2">
+              <div className="text-right pt-6 sm:col-span-2">
                 <button
                   type="submit"
                   className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"

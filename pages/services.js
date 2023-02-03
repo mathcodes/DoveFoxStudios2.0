@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Nav from '@components/Nav'
 import Footer from '@components/Footer'
-import ContactForm from '@components/ContactForm'
+import ServicesComponent from '@components/ServicesComponent'
 
-export default function Contact() {
+export default function Services() {
   return (
     <div>
       <Head>
@@ -11,7 +11,7 @@ export default function Contact() {
         <link rel="icon" href="https://www.jonchristie.net/favicon.png" />
       </Head>
       <Nav />
-      <ContactForm />
+      <ServicesComponent />
       <Footer />
     </div>
   )
