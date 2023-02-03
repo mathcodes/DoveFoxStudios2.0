@@ -4,19 +4,19 @@ export default function Nav() {
   return (
     <nav className="nav" role="navigation" aria-label="main navigation">
       <Link href="/">
-        <a>Home</a>
+        <div>Home</div>
       </Link>
       <Link href="/contact">
-        <a>Contact</a>
+        <div>Contact</div>
       </Link>
       <Link href="/contact">
-        <a>Contact</a>
+        <div>Contact</div>
       </Link>
       <Link href="/contact">
-        <a>Contact</a>
+        <div>Contact</div>
       </Link>
       <Link href="/contact">
-        <a>Contact</a>
+        <div>Contact</div>
       </Link>
       <style jsx>{`
         nav {
