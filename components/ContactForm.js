@@ -4,8 +4,8 @@ export default function ContactForm() {
       <div className="lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
-            className="h-56 w-full object-cover lg:absolute lg:h-full"
-            src="../assets/images/dfsImage1.jpg"
+            className="w-full object-scale-down lg:absolute lg:h-full"
+            src="https://raw.githubusercontent.com/mathcodes/DoveFoxStudios2.0/main/assets/images/dfsImage0.jpg"
             alt=""
           />
         </div>
